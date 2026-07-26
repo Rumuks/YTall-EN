@@ -1,6 +1,18 @@
-﻿# YTall (Downloader Project)
+# YTall
+A PowerShell-based YouTube downloader powered by yt-dlp.
 
 A PowerShell script for conveniently downloading YouTube videos/audio and encoding video into high quality.
+
+---
+## ✨ Features
+
+- One-file installer
+- Automatic yt-dlp installation
+- Automatic FFmpeg installation
+- Video & audio download
+- Playlist support
+- Subtitle download
+- Automatic update check
 
 ---
 
@@ -8,11 +20,12 @@ A PowerShell script for conveniently downloading YouTube videos/audio and encodi
 
 1.  Place the `run_ytall.ps1` file in a location of your choice (e.g., your desktop).
 2.  Right-click the `run_ytall.ps1` file and select **[Run with PowerShell]**.
+    -   `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`
     -   On first run, the script will automatically create the `ytall` folder and download/install all required files. (The original file is automatically deleted after installation.)
-3.  Agree to the legal notice (EULA) by typing `y`, then choose whether to create a desktop shortcut (`y` or `n`) to complete installation.
-4.  Once installation finishes, the `README.md` file opens automatically. **(Important: please read it at least once!)**
-5.  Add the YouTube links you want to download to `mp3.txt` or `mp4.txt` inside the `ytall` folder and save.
-6.  Run the `YTall` shortcut created on your desktop, or `YTall.bat` inside the `ytall` folder, to start downloading.
+4.  Agree to the legal notice (EULA) by typing `y`, then choose whether to create a desktop shortcut (`y` or `n`) to complete installation.
+5.  Once installation finishes, the `README.md` file opens automatically. **(Important: please read it at least once!)**
+6.  Add the YouTube links you want to download to `mp3.txt` or `mp4.txt` inside the `ytall` folder and save.
+7.  Run the `YTall` shortcut created on your desktop, or `YTall.bat` inside the `ytall` folder, to start downloading.
 
 ---
 
